@@ -1,22 +1,29 @@
 Greetings,
 
-Looking for assistance on this ID.  
+Looking for assistance on this I-D.  
 I believe it's something that has be done. I floated the idea around for a while and most feedback was positive other than the occasional "Are you crazy :-)" or "It will never work"  
 
 # Shutdown-IPv4
-IPv4 can’t live on the Internet forever and it is unrealistic to wait for a natural ‘death’.
-We need to set a fixed date to shut IPv4 down. The goals is to remove IPv4 global routing on
-the Internet and to remove all IPv4 registrations entries in the IANA registry, the root zone and TLDs.
-The goal is to enforce implementation of IPv6 and to have a single protocol Internet, easy to manage and operate.
-The scope is the public Internet and not internal networks. 
+IPv4 is unsustainable on the global internet. The increasing costs and declining performance
+of IPv4 based systems due to address overload are an unsustainable burden that is not only
+costly in terms of operational money, but also in placing artificial constraints on further
+development and by reducing the quality of the user experience.
 
-Enterprises and organizations that want to use IPv4 internally can do so forever.  Just tunnel IPv4 over IPv6!
+IPv4 will die a natural death, but waiting for it to do so will take many more years than
+is currently desirable. Therefore, this I-D proposes to set a flag date to declare IPv4
+no longer be supported as a globally routed protocol on the internet. The authors recognize
+that pockets of IPv4 for various specialized applications will endure for years and possibly
+even decades to come. However, at the time of writing, IPv4 is the current “lingua franca” of
+the internet. We propose to declare a date certain by which IPv6 will become the “lingua
+franca”.
 
-One good method to force change is to set a date by which we can drive human behaviour   
-to implement IPv6.  
+	Remove IPv4 from TLD Registries and Root zone : 2020/02/01  
+	Remove IPv4 from IANA Registries: 2021/02/01  
+	Remove IPv4 from AS Operator: 2022/02/01  
+	IPv4 Historical Status: 2024/04/04  
 
-The date is April 4, 2024.
-
+	
+	
 # How to get from markdown to xml to text?
 
 At least on Darwin, the highlights;  
