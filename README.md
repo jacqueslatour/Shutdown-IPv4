@@ -1,11 +1,7 @@
 Greetings,
 
 Looking for assistance on this ID.  
-I believe it's something that has be done.  
-I floated the idea around for a while and most feedback was positive other than  
-the occasional "Are you crazy :-)"  
-  
-Jack
+I believe it's something that has be done. I floated the idea around for a while and most feedback was positive other than the occasional "Are you crazy :-)" or "It will never work"  
 
 # Shutdown-IPv4
 IPv4 can’t live on the Internet forever and it is unrealistic to wait for a natural ‘death’.
@@ -23,12 +19,13 @@ The date is April 4, 2024.
 
 # How to get from markdown to xml to text?
 
-At least on Darwin, the highlights;
+At least on Darwin, the highlights;  
 	Brew install go  
 	go get github.com/BurntSushi/toml/cmd/tomlv  
 	go get github.com/miekg/mmark  
-	mmark -xml2 -page Shutdown-IPv4.md > Shutdown-IPv4.xml
-	xml2rfc --text Shutdown-IPv4.xml 
-In it works :-)
-	
+	mmark -xml2 -page Shutdown-IPv4.md > Shutdown-IPv4.xml  
+	xml2rfc --text Shutdown-IPv4.xml  
+In it works :-)  
+
+Jack	
 

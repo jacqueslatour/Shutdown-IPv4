@@ -77,7 +77,7 @@ Table of Contents
      3.3.  Can I still use IPv4 in my Internal networks? . . . . . .   3
    4.  Multiphase IPv4 deprecation  ?  . . . . . . . . . . . . . . .   3
    5.  Remove IPv4 from TLD Registries and Root zone . . . . . . . .   3
-     5.1.  Execution Date  . . . . . . . . . . . . . . . . . . . . .   4
+     5.1.  Execution Date  . . . . . . . . . . . . . . . . . . . . .   3
      5.2.  Expected Impact . . . . . . . . . . . . . . . . . . . . .   4
    6.  Remove IPv4 from IANA Registries  . . . . . . . . . . . . . .   4
      6.1.  Expected Impact . . . . . . . . . . . . . . . . . . . . .   4
@@ -87,7 +87,7 @@ Table of Contents
    9.  IANA Actions  . . . . . . . . . . . . . . . . . . . . . . . .   4
    10. Internationalization Considerations . . . . . . . . . . . . .   4
    11. Informative References  . . . . . . . . . . . . . . . . . . .   4
-   Appendix A.  Document History . . . . . . . . . . . . . . . . . .   5
+   Appendix A.  Document History . . . . . . . . . . . . . . . . . .   4
      A.1.  Version 00  . . . . . . . . . . . . . . . . . . . . . . .   5
    Author's Address  . . . . . . . . . . . . . . . . . . . . . . . .   5
 
@@ -98,11 +98,11 @@ Table of Contents
    is going to be a very difficult challenge, one that must be planned
    well and executed well to minimize operational impacts.  With the
    advent of the Internet of Things, we will be adding a few billion
-   devices to the Internet i going ot break IPv4.  Lots has been written
-   on this.  Today, we have to manage two networks, to manage security
-   for IPv4, IPv6 As of writing, we have 8 years 3 months to get this
-   right, to fix the remaining protocol and implementation issues.
-
+   devices to the Internet is going to break IPv4.  Lots has been
+   written on this.  Today, we have to manage two networks, to manage
+   security for IPv4, IPv6 As of writing, we have 8 years 3 months to
+   get this right, to fix the remaining protocol and implementation
+   issues.
 
 
 
@@ -148,16 +148,16 @@ Internet-Draft                SHUTDOWN-IPv4                 January 2016
 
    A phase approach should be used to gradually remove the dependence on
    IPv4.
-
-   Start with names; remove IPv4 from name registries IANA; remove IPv4
-   from IANA registry All AS Operator; remove IPv4 routes from all core
-   Internet routers
+   Start with names and fisnish with routes.
 
 5.  Remove IPv4 from TLD Registries and Root zone
 
    Remove IPv4 NS records Remove IPv4 glue records Remove IPv4 registry
    access, EPP access
 
+5.1.  Execution Date
+
+   This could be performed a period of time before the target date
 
 
 
@@ -169,10 +169,6 @@ Latour                    Expires July 22, 2016                 [Page 3]
 
 Internet-Draft                SHUTDOWN-IPv4                 January 2016
 
-
-5.1.  Execution Date
-
-   This could be performed a period of time before the target date
 
 5.2.  Expected Impact
 
@@ -216,6 +212,10 @@ Internet-Draft                SHUTDOWN-IPv4                 January 2016
               DOI 10.17487/RFC2119, March 1997,
               <http://www.rfc-editor.org/info/rfc2119>.
 
+Appendix A.  Document History
+
+
+
 
 
 
@@ -225,8 +225,6 @@ Latour                    Expires July 22, 2016                 [Page 4]
 
 Internet-Draft                SHUTDOWN-IPv4                 January 2016
 
-
-Appendix A.  Document History
 
 A.1.  Version 00
 
@@ -238,6 +236,8 @@ Author's Address
    CIRA
 
    Email: jacques.latour@cira.ca
+
+
 
 
 

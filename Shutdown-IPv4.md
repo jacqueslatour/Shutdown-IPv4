@@ -39,7 +39,7 @@ IPv4 is over XX years old!
 The Internet over IPv4 is not scalable to meet our future needs
 Moving away from IPv4 is going to be a very difficult challenge, one that must be planned well and executed well
 to minimize operational impacts.
-With the advent of the Internet of Things, we will be adding a few billion devices to the Internet i going ot break IPv4. 
+With the advent of the Internet of Things, we will be adding a few billion devices to the Internet is going to break IPv4. 
 Lots has been written on this.
 Today, we have to manage two networks, to manage security for IPv4, IPv6
 As of writing, we have 8 years 3 months to get this right, to fix the remaining protocol and implementation issues.
@@ -74,11 +74,8 @@ Yes, IPv4 can exist inside Internal networks,
 IPv4 can be tunnelled over IPv6 on the Internet.
 
 # Multiphase IPv4 deprecation  ? 
-A phase approach should be used to gradually remove the dependence on IPv4.
-
-Start with names; remove IPv4 from name registries
-IANA; remove IPv4 from IANA registry
-All AS Operator; remove IPv4 routes from all core Internet routers
+A phase approach should be used to gradually remove the dependence on IPv4.  
+Start with names and fisnish with routes.  
 
 
 # Remove IPv4 from TLD Registries and Root zone
