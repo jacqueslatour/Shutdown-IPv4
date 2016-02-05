@@ -7,7 +7,7 @@
 % workgroup = "Sunsetting IPv4"
 % keyword = ["sunset4"]
 %
-% date = 2016-01-19T00:00:00Z
+% date = 2016-02-05T00:00:00Z
 %
 % [[author]]
 % fullname = "Jacques Latour" 
@@ -50,6 +50,20 @@ Why is this needed ?
 
 IPv4 is over 30 years old!
 
+Dual-stack is the way to go for a while, but eventually the depletion of IPv4 addresses will
+cause IPv6 only infrastructure and services to segment the Internet, those on IPv6 only 
+and those IPv4 only.  If the majority of the growth on the Internet will be IPv6, we'll be left
+with small and isolated IPv4 networks.  It's time to look at those networks now and see what can
+be done today to ensure they are part of the IPv6 infrastructure. Certainly the commercial entities 
+will not support expensive IPv4 support too long if there are only a few isolated IPv4 only subnets.
+
+Dual stack is an interim solution to a real problem, dual-stack has a cost, it's expensive to operate
+and doubles the security exposure.  Dual-stack is temporary.
+
+The dates specified are suggestion only and need to be agreed on, they are to provoke a reaction, 
+to think about the impacts of shutting down IPv4, to think of the global actions we need to take 
+in order to have an IPv6 only Internet. 
+
 There are many reasons to do this, but the most obvious one is that progress on any task
 without a specific deadline tends to proceed at a slower pace than one with a deadline.
 In this case, the lack of a deadline has lead o a 20+ year procrastination in deployment
@@ -67,8 +81,8 @@ the IETF can send a clear signal to developers, operators, administrators, and e
 the financial markets that this change is vital and necessary to the sustainable operation
 of the internet and that plans are in place for achieving this goal.
 
-In terms if timelines, we propose to deprecate IPv4 in 2021/02/01 and move the status to historical on 
-2014/04/04.
+In terms if timelines, we propose to deprecate IPv4 in 2022/02/01 and move the status to
+historical on 2024/04/04.
 
 
 # Notational Conventions
@@ -82,18 +96,21 @@ in [@RFC2119].
 # What is the goal ? 
 The primary goal of this I-D is to define key dates and document a timeline and action 
 plan that for the discontinuation of the IPv4 protocol on the global Internet.  The dates
-need to be aggresive enough to avoid further deployment procrastination.
+need to be aggressive enough to avoid further deployment procrastination.
+
+The dates need to allow sufficient time to identity potential IPv4 only networks (those who can't
+afford to upgrade their IPv4 only network equipment) and plan for upgrades.
 
 ## When ?
-The target date to have an IPv4 free Internet is April 4, 2024.
+The target date to have an IPv6 only Internet is April 4, 2024.
 	
 ## Can I still use IPv4 in my Internal networks? 
-Yes, IPv4 can exist inside Internal networks, IPv4 can be tunnelled over IPv6 on the global Internet.
+Yes, IPv4 can exist inside Internal networks, IPv4 can be tunneled over IPv6 on the global Internet.
 This I-D only addresses IPv4 on the global Internet.
 
 # Multiphase IPv4 deprecation
 A phased approach is recommended over a few years to gradually remove the dependence on IPv4.  
-We should start deprecating IPv4 names and fisnish with removing all global Internet IPv4 routes.  
+We should start deprecating IPv4 names and finish with removing all global Internet IPv4 routes.  
 
 # Remove IPv4 from TLD Registries and Root zone
 Remove IPv4 NS records
@@ -101,7 +118,7 @@ Remove IPv4 glue records
 Remove IPv4 registry access, EPP access
 
 ## Execution Date
-This phase is schedule for 2020/02/01
+This phase is schedule for 2022/02/01
 
 ## Expected Impact
 TLD Domains names are IPv6 only
@@ -114,7 +131,7 @@ Remove IPv4 in as112.arpa
 Remove any IANA IPv4 references
 
 ## Execution Date
-This phase is schedule for 2021/02/01
+This phase is schedule for 2023/02/01
 
 ## Expected Impact
 Find pockets of IPv4 that are lagging on the migration
@@ -125,15 +142,15 @@ The vast majority of Internet traffic is over IPv6
 This is the last step in shutting down IPv4, remove IPv4 routes from all AS operator.
 
 ## Execution Date
-This phase is schedule for 2022/02/01
+This phase is schedule for 2024/02/01
 
 ## Expected Impact
 Smaller core Internet routers.  
 Reduced operating costs.  
 Big Party!
 	
-# IPv4 as Hitorical Status
-That's it for IPv4. List all the thing to make Ipv4 Historical
+# IPv4 as Historical Status
+That's it for IPv4. List all the thing to make IPv4 Historical
 
 ## Execution Date
 This phase is schedule for 2024/04/04
